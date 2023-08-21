@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/placeholder_title_text</item>
+    </style>
+
+    <style name="Topic">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/placeholder_topic_text</item>
+    </style>
+
+    <style name="Date">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/placeholder_date_text</item>
+        <item name="android:paddingTop">@dimen/paddingTop</item>
+        <item name="android:layout_below">@id/Topic</item>
+    </style>
+
+    <style name="Author">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/placeholder_author_text</item>
+        <item name="android:paddingTop">@dimen/paddingTop</item>
+        <item name="android:layout_below">@id/Date</item>
+    </style>
+
+    <style name="Thumbnail">
+        <item name="android:layout_width">@dimen/ImageWidthDimens</item>
+        <item name="android:layout_height">@dimen/ImageHeightDimens</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/placeholderimage</item>
+    </style>
+
+</resources>
